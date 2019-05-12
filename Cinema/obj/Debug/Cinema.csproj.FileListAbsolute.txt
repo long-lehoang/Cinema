@@ -1,0 +1,12 @@
+C:\Users\HoangLong\source\repos\Cinema\Cinema\bin\Debug\Cinema.exe.config
+C:\Users\HoangLong\source\repos\Cinema\Cinema\bin\Debug\Cinema.exe
+C:\Users\HoangLong\source\repos\Cinema\Cinema\bin\Debug\Cinema.pdb
+C:\Users\HoangLong\source\repos\Cinema\Cinema\obj\Debug\Cinema.csprojAssemblyReference.cache
+C:\Users\HoangLong\source\repos\Cinema\Cinema\obj\Debug\Cinema.Properties.Resources.resources
+C:\Users\HoangLong\source\repos\Cinema\Cinema\obj\Debug\Cinema.csproj.GenerateResource.cache
+C:\Users\HoangLong\source\repos\Cinema\Cinema\obj\Debug\Cinema.csproj.CoreCompileInputs.cache
+C:\Users\HoangLong\source\repos\Cinema\Cinema\obj\Debug\Cinema.exe
+C:\Users\HoangLong\source\repos\Cinema\Cinema\obj\Debug\Cinema.pdb
+C:\Users\HoangLong\source\repos\Cinema\Cinema\obj\Debug\Cinema.fStaff.resources
+C:\Users\HoangLong\source\repos\Cinema\Cinema\obj\Debug\Cinema.fFood.resources
+C:\Users\HoangLong\source\repos\Cinema\Cinema\obj\Debug\Cinema.fFilm.resources

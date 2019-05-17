@@ -37,6 +37,7 @@
             this.panel1 = new System.Windows.Forms.Panel();
             this.label11 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
+            this.label13 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
@@ -76,7 +77,6 @@
             this.btnrefresh = new System.Windows.Forms.Button();
             this.btndelete = new System.Windows.Forms.Button();
             this.btnsearch = new System.Windows.Forms.Button();
-            this.label13 = new System.Windows.Forms.Label();
             this.menuStrip1.SuspendLayout();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
@@ -169,6 +169,15 @@
             this.label10.Size = new System.Drawing.Size(95, 13);
             this.label10.TabIndex = 1;
             this.label10.Text = "Diễn viên tham gia";
+            // 
+            // label13
+            // 
+            this.label13.AutoSize = true;
+            this.label13.Location = new System.Drawing.Point(14, 255);
+            this.label13.Name = "label13";
+            this.label13.Size = new System.Drawing.Size(88, 13);
+            this.label13.TabIndex = 1;
+            this.label13.Text = "Lượt xem dự kiến";
             // 
             // label8
             // 
@@ -503,15 +512,6 @@
             this.btnsearch.UseVisualStyleBackColor = true;
             this.btnsearch.Click += new System.EventHandler(this.btnsearch_Click);
             // 
-            // label13
-            // 
-            this.label13.AutoSize = true;
-            this.label13.Location = new System.Drawing.Point(14, 255);
-            this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(88, 13);
-            this.label13.TabIndex = 1;
-            this.label13.Text = "Lượt xem dự kiến";
-            // 
             // fFilm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -522,6 +522,7 @@
             this.Controls.Add(this.menuStrip1);
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "fFilm";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.Text = "fFilm";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.fFilm_FormClosing);
             this.menuStrip1.ResumeLayout(false);

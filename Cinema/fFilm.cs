@@ -98,6 +98,8 @@ namespace Cinema
                     query = "exec add_film " + name + length + producer + opening_day + introduce + trailer + category + language + view_estimation + actor ;
 
                     loaddataFilm(query);
+                    query = "select * from [VIEW_film]";
+                    loaddataFilm(query);
                 }
             }
             catch (Exception)
@@ -144,6 +146,9 @@ namespace Cinema
                     query = "exec update_film " + name + length + producer + opening_day + introduce + trailer + category + language + view_estimation + actor;
 
                     loaddataFilm(query);
+                    query = "select * from [VIEW_film]";
+                    loaddataFilm(query);
+
                 }
             }
             catch (Exception)
@@ -156,6 +161,9 @@ namespace Cinema
         {
             query = "exec delete_film '" + txtdelete.Text + "'";
 
+            loaddataFilm(query);
+            query = "select * from [VIEW_film]";
+            loaddataFilm(query);
             loaddataFilm(query);
         }
     }

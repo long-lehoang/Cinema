@@ -10,3 +10,15 @@ C:\Users\HoangLong\source\repos\Cinema\Cinema\obj\Debug\Cinema.pdb
 C:\Users\HoangLong\source\repos\Cinema\Cinema\obj\Debug\Cinema.fStaff.resources
 C:\Users\HoangLong\source\repos\Cinema\Cinema\obj\Debug\Cinema.fFood.resources
 C:\Users\HoangLong\source\repos\Cinema\Cinema\obj\Debug\Cinema.fFilm.resources
+E:\App WinForm\Cinema\Cinema\bin\Debug\Cinema.exe.config
+E:\App WinForm\Cinema\Cinema\bin\Debug\Cinema.exe
+E:\App WinForm\Cinema\Cinema\bin\Debug\Cinema.pdb
+E:\App WinForm\Cinema\Cinema\obj\Debug\Cinema.csprojAssemblyReference.cache
+E:\App WinForm\Cinema\Cinema\obj\Debug\Cinema.fFilm.resources
+E:\App WinForm\Cinema\Cinema\obj\Debug\Cinema.fFood.resources
+E:\App WinForm\Cinema\Cinema\obj\Debug\Cinema.fStaff.resources
+E:\App WinForm\Cinema\Cinema\obj\Debug\Cinema.Properties.Resources.resources
+E:\App WinForm\Cinema\Cinema\obj\Debug\Cinema.csproj.GenerateResource.cache
+E:\App WinForm\Cinema\Cinema\obj\Debug\Cinema.csproj.CoreCompileInputs.cache
+E:\App WinForm\Cinema\Cinema\obj\Debug\Cinema.exe
+E:\App WinForm\Cinema\Cinema\obj\Debug\Cinema.pdb

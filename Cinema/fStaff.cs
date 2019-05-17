@@ -74,6 +74,8 @@ namespace Cinema
                     query = "exec add_staff " + ssn + passw + email + phone + gender + fname + lname + dayofbirth + district + street_addr + salary + picurl;
 
                     loaddataStaff(query);
+                    query = "select * from [VIEW_STAFF]";
+                    loaddataStaff(query);
                 }
             }
             catch (Exception)
@@ -109,6 +111,9 @@ namespace Cinema
         {
             query = "exec delete_staff '" + txtdeleteStaff.Text + "'";
             loaddataStaff(query);
+
+            query = "select * from [VIEW_STAFF]";
+            loaddataStaff(query);
         }
 
         private void edit_Click(object sender, EventArgs e)
@@ -136,6 +141,9 @@ namespace Cinema
                     string picurl = ",'" + pictureBox1.ImageLocation + "'";
                     query = "exec update_staff " + ssn + passw + email + phone + gender + fname + lname + dayofbirth + district + street_addr + salary + picurl;
 
+                    loaddataStaff(query);
+
+                    query = "select * from [VIEW_STAFF]";
                     loaddataStaff(query);
                 }
             }

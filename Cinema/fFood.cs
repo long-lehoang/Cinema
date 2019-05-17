@@ -57,6 +57,9 @@ namespace Cinema
 
                     query = "exec add_food " + name + amount + price + expire_date;
                     loaddataFood(query);
+
+                    query = "select * from Food with(index(indexname))";
+                    loaddataFood(query);
                 }
             }
             catch(Exception)
@@ -86,6 +89,9 @@ namespace Cinema
 
                     query = "exec update_food " + name + amount + price + expire_date;
                     loaddataFood(query);
+
+                    query = "select * from Food with(index(indexname))";
+                    loaddataFood(query);
                 }
             }
             catch (Exception)
@@ -97,6 +103,9 @@ namespace Cinema
         private void btndelete_Click(object sender, EventArgs e)
         {
             query = "exec delete_food " + txtdelete.Text;
+            loaddataFood(query);
+
+            query = "select * from Food with(index(indexname))";
             loaddataFood(query);
         }
 
